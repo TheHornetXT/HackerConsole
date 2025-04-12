@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker Console</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="console-header">
+            <div class="title">TERMINAL ACCESS v2.5.1</div>
+            <div class="controls">
+                <span class="control red"></span>
+                <span class="control yellow"></span>
+                <span class="control green"></span>
+            </div>
+        </div>
+        <div class="console">
+            <div id="output">
+                <div class="line system">SYSTEM INITIALIZED</div>
+                <div class="line system">SECURE CONNECTION ESTABLISHED</div>
+                <div class="line system">TYPE 'help' FOR AVAILABLE COMMANDS</div>
+            </div>
+            <div class="input-line">
+                <span class="prompt">C:\HACK&gt;</span>
+                <input type="text" id="commandInput" autofocus>
+            </div>
+        </div>
+        <div class="status-bar">
+            <div class="status">Status: <span id="statusText">Ready</span></div>
+            <div class="ip">IP: <span id="ipAddress">192.168.1.1</span></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
